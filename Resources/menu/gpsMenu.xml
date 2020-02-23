@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/gpsSave"
+        android:icon="@drawable/Save"
+        android:title="@string/Save"
+        android:showAsAction="always|withText"/>
+  <item android:id="@+id/exportGPS"
+        android:icon="@drawable/Export"
+        android:title="@string/Export"
+        android:showAsAction="always|withText"/>
+  <item android:id="@+id/contactList"
+        android:icon="@drawable/Contact"
+        android:title="@string/contactList"
+        android:showAsAction="always|withText"/>
+</menu>

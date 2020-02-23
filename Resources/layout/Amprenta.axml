@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/scrollAmprente"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25dp"
+    android:minHeight="25dp"
+    android:background="@drawable/Degradee">
+  <RelativeLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/fingertipRelativeLayout">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <ImageView
+          android:layout_width="300dp"
+          android:layout_height="300dp"
+          android:id="@+id/ivFingertip"
+          android:src="@drawable/Fingerprints"
+          android:layout_gravity="center_horizontal"
+          android:scaleType="fitCenter"
+          android:layout_marginTop="170dp" />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/tvFingertip"
+          android:layout_below="@+id/ivFingertip"
+          android:layout_marginTop="60dp"
+          android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+          android:gravity="center"
+          android:textSize="15dp"
+          android:textColor="@color/OrangeStyle"
+          android:textStyle="bold" />
+      <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/gotoLinear"
+            android:layout_below="@+id/tvFingertip"
+            android:weightSum="3">
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/gotoCriptare"
+            android:focusable="true"
+            android:text="@string/gotoCriptare"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:backgroundTint="@color/OrangeStyle"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/gotoGPS"
+            android:focusable="true"
+            android:text="@string/gotoGPS"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:backgroundTint="@color/OrangeStyle"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/gotoContinut"
+            android:focusable="true"
+            android:text="@string/gotoContinut"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:backgroundTint="@color/OrangeStyle"
+            android:layout_weight="1" />
+      </LinearLayout>
+    </LinearLayout>
+  </RelativeLayout>
+</ScrollView>

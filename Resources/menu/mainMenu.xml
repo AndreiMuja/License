@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/infoItem"
+        android:icon="@drawable/Info"
+        android:title="@string/Info"
+        android:showAsAction="always|withText"/>
+  <item android:id="@+id/logout"
+        android:icon="@drawable/Logout"
+        android:title="@string/Logout"
+        android:showAsAction="always|withText"/>
+</menu>
+

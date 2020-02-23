@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/scrollAcces"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25dp"
+    android:minHeight="25dp"
+    android:background="@drawable/Degradee">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/accessRelativeLayout">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/imagLinearLayout"
+            android:layout_marginTop="10dp"
+            android:weightSum="2">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:id="@+id/ivGoogle"
+                android:src="@drawable/Google"
+                android:layout_weight="1"
+                android:scaleType="fitCenter" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:id="@+id/ivFacebook"
+                android:src="@drawable/Facebook"
+                android:layout_weight="1"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rbLinear"
+            android:layout_below="@+id/imagLinearLayout"
+            android:weightSum="1">
+            <RadioButton
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbAccess"
+                android:focusable="true"
+                android:text="@string/Grant"
+                android:textColor="@color/OrangeStyle"
+                android:textStyle="bold"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imLinear"
+            android:layout_below="@+id/rbLinear"
+            android:weightSum="2">
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnGoogle"
+                android:focusable="true"
+                android:text="@string/Google"
+                android:textColor="@color/Black"
+                android:textStyle="bold"
+                android:backgroundTint="@color/OrangeStyle"
+                android:layout_weight="1" />
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnFacebook"
+                android:focusable="true"
+                android:text="@string/Facebook"
+                android:textColor="@color/Black"
+                android:textStyle="bold"
+                android:backgroundTint="@color/OrangeStyle"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragmentAccess"
+            android:layout_below="@+id/imLinear"
+            android:layout_marginTop="10dp" />
+    </RelativeLayout>
+</ScrollView>

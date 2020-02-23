@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/scrollCriptare"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25dp"
+    android:minHeight="25dp"
+    android:background="@drawable/Degradee">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cryptImage"
+            android:src="@drawable/BigEncrypt"
+            android:layout_marginTop="90dp"
+            android:scaleType="fitCenter" />
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userCrypt"
+            android:hint="@string/regUsername"
+            android:textColorHint="@color/Black"
+            android:layout_below="@+id/cryptImage"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18dp"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:background="@drawable/StyleEditText"
+            style="@style/StyleText" />
+        <EditText
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailCrypt"
+            android:hint="@string/emailAddress"
+            android:textColorHint="@color/Black"
+            android:layout_below="@+id/userCrypt"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18dp"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:background="@drawable/StyleEditText"
+            style="@style/StyleText" />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/parolaCrypt"
+            android:hint="@string/Parola"
+            android:textColorHint="@color/Black"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_below="@+id/emailCrypt"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18dp"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:background="@drawable/StyleEditText"
+            style="@style/StyleText" />
+        <Button
+            android:text="@string/Encrypt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveCrypt"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_below="@+id/parolaCrypt"
+            android:focusable="true"
+            android:textSize="18dp"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:backgroundTint="@color/OrangeStyle" />
+    </LinearLayout>
+</ScrollView>

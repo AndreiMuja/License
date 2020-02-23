@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">PrevenireRiscIT</string>
+  <string name="emailAddress">Your email address</string>
+  <string name="Parola">Password</string>
+  <string name="Login">LOGIN</string>
+  <string name="regUsername">Real name</string>
+  <string name="regPassword">Password</string>
+  <string name="regEmail">something@something.domain</string>
+  <string name="Register">REGISTER</string>
+  <string name="mandatory">
+    * All fields are mandatory. Password must contain at least 8 characters,
+    at least one uppercase, a digit and a nonaplhanumeric character.
+  </string>
+  <string name="notification">You do not have an account? SIGN UP RIGHT NOW!</string>
+  <string name="Logout">Logout</string>
+  <string name="ChangePassword">CHANGE PASSWORD</string>
+  <string name="forgot">Forgot password? CLICK HERE!</string>
+  <string name="GPS">GPS</string>
+  <string name="PrevenireCheieAPI">AIzaSyAqOuyLN71QTk8XswchSc4HopHdQaQqcZc</string>
+  <string name="Latitude">Latitude</string>
+  <string name="Longitude">Longitude</string>
+  <string name="CurrentAddress">Current address</string>
+  <string name="Save">Save</string>
+  <string name="Date">Current date</string>
+  <string name="Export">Export</string>
+  <string name="Welcome">WELCOME</string>
+  <string name="Menu">Choose security type</string>
+  <string name="Description">Image description:</string>
+  <string name="Test">Test image</string>
+  <string name="Adequate">Adequate</string>
+  <string name="Inadequate">Inadequate</string>
+  <string name="visionRest">dfa52b8befd84a09bc6cfd6944e6fd29</string>
+  <string name="Google">Google</string>
+  <string name="Facebook">Facebook</string>
+  <string name="Explorer">Explorer</string>
+  <string name="Grant">Grant access</string>
+  <string name="Restrict">Restrict access</string>
+  <string name="Info">Info</string>
+  <string name="Information">
+    This application shows you the risks when using a mobile device and
+    how to protect yourself from them. The application is structured on modules: data encryption, media content check,
+    real-time location with emergency call, and secure web browsing. In order to access the first three, a fingerprint authentication 
+    is also needed. More details will be found as soon as you go through the pages corresponding to the modules. Have fun and keep safe :D !
+  </string>
+  <string name="Encrypt">Encrypt user</string>
+  <string name="gotoCriptare">Crypting</string>
+  <string name="gotoGPS">GPS</string>
+  <string name="gotoContinut">Content</string>
+  <string name="contactList">Contact List</string>
+</resources>
